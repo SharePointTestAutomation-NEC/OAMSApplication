@@ -1,0 +1,319 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2231392400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 380,
+        "name": "Verify to Create OAMS New Apportunity approval request for Category A and Estimated Effort less than twenty five days",
+        "description": "",
+        "id": "oams-application;verify-to-create-oams-new-apportunity-approval-request-for-category-a-and-estimated-effort-less-than-twenty-five-days;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1243821800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16959836100,
+              "status": "passed"
+            },
+            "line": 363,
+            "name": "I have logged in full permission user model AdminRights",
+            "match": {
+              "arguments": [
+                {
+                  "val": " AdminRights",
+                  "offset": 43
+                }
+              ],
+              "location": "Generic_Steps.iHaveLoggedInFullPermissionUserModel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12478632100,
+              "status": "passed"
+            },
+            "line": 364,
+            "name": "I click on OAM menu from side bar",
+            "match": {
+              "location": "Generic_Steps.iClickOnOAMSMenuFromSideBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1476829600,
+              "status": "passed"
+            },
+            "line": 365,
+            "name": "I click on New opportunity approval request",
+            "match": {
+              "location": "Generic_Steps.iClickOnNewOpportunityApprovalRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28003635400,
+              "status": "passed"
+            },
+            "line": 366,
+            "name": "Fill the OAMS New Opportunity Details for Category Exemption and required effort day as \u003e40\u003c100 days and 60000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Exemption",
+                  "offset": 51
+                },
+                {
+                  "val": "\u003e40\u003c100 days",
+                  "offset": 88
+                },
+                {
+                  "val": "60000",
+                  "offset": 105
+                }
+              ],
+              "location": "Generic_Steps.fillTheOAMSNewOpportunityDetailsForCategoryCategoryTypeAndRequiredEffortDayAsEffortDay(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20311417700,
+              "status": "passed"
+            },
+            "line": 367,
+            "name": "I click the on the Save Button",
+            "match": {
+              "location": "Generic_Steps.iClickTheOnTheSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69558326600,
+              "status": "passed"
+            },
+            "line": 368,
+            "name": "Verify the respective Records for Approval and Opportunity In Development and CategoryType is Exemption",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity In Development",
+                  "offset": 47
+                },
+                {
+                  "val": "Exemption",
+                  "offset": 94
+                }
+              ],
+              "location": "Generic_Steps.verifyTheRespectiveRecordsInSignOnForApproval(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1368192100,
+              "status": "passed"
+            },
+            "line": 369,
+            "name": "I click on Respective Records and click on edit button for approver requires",
+            "match": {
+              "location": "Generic_Steps.iClickOnRespectiveRecordsAndClickOnEditButtonForApproverRequires()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5752396500,
+              "status": "passed"
+            },
+            "line": 370,
+            "name": "Provide the require approvers for Development Request Opportunity Release Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity Release Request",
+                  "offset": 54
+                }
+              ],
+              "location": "Generic_Steps.provideTheRequireApproversForDevRequest(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76973976200,
+              "status": "passed"
+            },
+            "line": 371,
+            "name": "Verify the respective Records for Approval and Opportunity Release Request and CategoryType is Exemption",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity Release Request",
+                  "offset": 47
+                },
+                {
+                  "val": "Exemption",
+                  "offset": 95
+                }
+              ],
+              "location": "Generic_Steps.verifyTheRespectiveRecordsInSignOnForApproval(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1274144100,
+              "status": "passed"
+            },
+            "line": 372,
+            "name": "I click on Respective Records and click on edit button for approver requires",
+            "match": {
+              "location": "Generic_Steps.iClickOnRespectiveRecordsAndClickOnEditButtonForApproverRequires()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26847125000,
+              "status": "passed"
+            },
+            "line": 373,
+            "name": "Relese RequestApprovers on the basis of effrtDays and tcv valueTC13 Exemption,\u003e40\u003c100 days and 60000 and Approved",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Exemption",
+                  "offset": 68
+                },
+                {
+                  "val": "\u003e40\u003c100 days",
+                  "offset": 78
+                },
+                {
+                  "val": "60000",
+                  "offset": 95
+                },
+                {
+                  "val": "Approved",
+                  "offset": 105
+                }
+              ],
+              "location": "Generic_Steps.effortDysAndTCVValueTC13(String,String,Double,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16412936000,
+              "status": "passed"
+            },
+            "line": 374,
+            "name": "I click on filter option for approved",
+            "match": {
+              "location": "Generic_Steps.iClickOnFilterOptionForApproved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10846886900,
+              "status": "passed"
+            },
+            "line": 375,
+            "name": "I select the Approved filter criteria",
+            "match": {
+              "location": "Generic_Steps.iSelectTheApprovedFilterCriteria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208773000,
+              "status": "passed"
+            },
+            "line": 376,
+            "name": "I verify the App Level Criteria on the basis of Exemption,\u003e40\u003c100 days and 60000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Exemption",
+                  "offset": 48
+                },
+                {
+                  "val": "\u003e40\u003c100 days",
+                  "offset": 58
+                },
+                {
+                  "val": "60000",
+                  "offset": 75
+                }
+              ],
+              "location": "Generic_Steps.iVerifyTheAppLevelCriteriaOnTheBasisOfGovCatEffrDysAndDealValue(String,String,Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OAMSCases"
+          },
+          {
+            "name": "@TC015_CategoryExemptionGreaterThan40AndLessThan100"
+          },
+          {
+            "name": "#done"
+          }
+        ]
+      }
+    ],
+    "name": "OAMS Application",
+    "description": "  As we are covering OAMS feature file as Facilities Management",
+    "id": "oams-application",
+    "keyword": "Feature",
+    "uri": "C:/GitProject/OAMSApplication/OAMSApplication/src/test/resources/features/OAM.feature",
+    "tags": [
+      {
+        "name": "@OAMSCases",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: OAMS Application
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5,894.81 s <<< FAILURE! - in OAMS Application
+Verify to Create OAMS New Apportunity approval request for Category A and Estimated Effort less than twenty five days(OAMS Application)  Time elapsed: 391.509 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for pageobjects.PropertiesPageObject$1@57786d7b (tried for 300 second(s) with 50 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Create new opportunity approval request')]"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'UK-V-JENK-01', ip: '10.102.80.159', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\PARMES~1.GLO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 772a0ef3c92da6baac8419ea4ce2f3d9
+*** Element info: {Using=xpath, value=//span[contains(text(),'Create new opportunity approval request')]}
+

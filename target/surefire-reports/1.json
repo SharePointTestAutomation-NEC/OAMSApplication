@@ -1,0 +1,371 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3952011900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify to Create OAMS New Apportunity approval request for Category A and Estimated Effort less than twenty five days",
+        "description": "",
+        "id": "oams-application;verify-to-create-oams-new-apportunity-approval-request-for-category-a-and-estimated-effort-less-than-twenty-five-days;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1290063700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23687740000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have logged in full permission user model AdminRights",
+            "match": {
+              "arguments": [
+                {
+                  "val": " AdminRights",
+                  "offset": 43
+                }
+              ],
+              "location": "Generic_Steps.iHaveLoggedInFullPermissionUserModel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14235998000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on OAM menu from side bar",
+            "match": {
+              "location": "Generic_Steps.iClickOnOAMSMenuFromSideBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2429525200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on New opportunity approval request",
+            "match": {
+              "location": "Generic_Steps.iClickOnNewOpportunityApprovalRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30272957800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Fill the OAMS New Opportunity Details for Category Category A and required effort day as \u003c25 days and 1000001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category A",
+                  "offset": 51
+                },
+                {
+                  "val": "\u003c25 days",
+                  "offset": 89
+                },
+                {
+                  "val": "1000001",
+                  "offset": 102
+                }
+              ],
+              "location": "Generic_Steps.fillTheOAMSNewOpportunityDetailsForCategoryCategoryTypeAndRequiredEffortDayAsEffortDay(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20400082000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the on the Save Button",
+            "match": {
+              "location": "Generic_Steps.iClickTheOnTheSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76080982900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify the respective Records for Approval and Opportunity Sign On and CategoryType is Category A",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity Sign On",
+                  "offset": 47
+                },
+                {
+                  "val": "Category A",
+                  "offset": 87
+                }
+              ],
+              "location": "Generic_Steps.verifyTheRespectiveRecordsInSignOnForApproval(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1532590400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Respective Records and click on edit button for approver requires",
+            "match": {
+              "location": "Generic_Steps.iClickOnRespectiveRecordsAndClickOnEditButtonForApproverRequires()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19401462600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Provided the required approvers as Approved",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Approved",
+                  "offset": 35
+                }
+              ],
+              "location": "Generic_Steps.providedTheRequiredApproversAsApproved(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79093513400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the respective Records for Approval and Opportunity In Development and CategoryType is Category A",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity In Development",
+                  "offset": 47
+                },
+                {
+                  "val": "Category A",
+                  "offset": 94
+                }
+              ],
+              "location": "Generic_Steps.verifyTheRespectiveRecordsInSignOnForApproval(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323026400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Respective Records and click on edit button for approver requires",
+            "match": {
+              "location": "Generic_Steps.iClickOnRespectiveRecordsAndClickOnEditButtonForApproverRequires()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6007636600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Provide the require approvers for Development Request Opportunity Release Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity Release Request",
+                  "offset": 54
+                }
+              ],
+              "location": "Generic_Steps.provideTheRequireApproversForDevRequest(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79070334900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify the respective Records for Approval and Opportunity Release Request and CategoryType is Category A",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opportunity Release Request",
+                  "offset": 47
+                },
+                {
+                  "val": "Category A",
+                  "offset": 95
+                }
+              ],
+              "location": "Generic_Steps.verifyTheRespectiveRecordsInSignOnForApproval(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323754100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Respective Records and click on edit button for approver requires",
+            "match": {
+              "location": "Generic_Steps.iClickOnRespectiveRecordsAndClickOnEditButtonForApproverRequires()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58839951800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Relese RequestApprovers on the basis of effrtDays and tcv valueTC01 Category A,\u003c25 days and 1000001 and Approved",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category A",
+                  "offset": 68
+                },
+                {
+                  "val": "\u003c25 days",
+                  "offset": 79
+                },
+                {
+                  "val": "1000001",
+                  "offset": 92
+                },
+                {
+                  "val": "Approved",
+                  "offset": 104
+                }
+              ],
+              "location": "Generic_Steps.effortDysAndTCVValueTC01(String,String,Double,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6253490300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on filter option for approved",
+            "match": {
+              "location": "Generic_Steps.iClickOnFilterOptionForApproved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10858867700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select the Approved filter criteria",
+            "match": {
+              "location": "Generic_Steps.iSelectTheApprovedFilterCriteria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218504000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify the App Level Criteria on the basis of Category A,\u003c25 days and 1000001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category A",
+                  "offset": 48
+                },
+                {
+                  "val": "\u003c25 days",
+                  "offset": 59
+                },
+                {
+                  "val": "1000001",
+                  "offset": 72
+                }
+              ],
+              "location": "Generic_Steps.iVerifyTheAppLevelCriteriaOnTheBasisOfGovCatEffrDysAndDealValue(String,String,Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OAMSCases"
+          },
+          {
+            "name": "@TC001_CategoryALessThan25"
+          },
+          {
+            "name": "#done"
+          }
+        ]
+      }
+    ],
+    "name": "OAMS Application",
+    "description": "  As we are covering OAMS feature file as Facilities Management",
+    "id": "oams-application",
+    "keyword": "Feature",
+    "uri": "C:/GitProject/OAMSApplication/OAMSApplication/src/test/resources/features/OAM.feature",
+    "tags": [
+      {
+        "name": "@OAMSCases",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
